@@ -1,0 +1,15 @@
+{
+  "name": "elmcalc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "make": "elm make src/Main.elm --yes --warn",
+    "watch": "elm reactor",
+    "test": "elm test"
+  },
+  "dependencies": {
+    "elm": "^0.18.0",
+    "elm-test": "^0.18.7"
+  }
+}
